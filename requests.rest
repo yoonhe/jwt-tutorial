@@ -1,0 +1,28 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZGFldW4iLCJpYXQiOjE1ODY4NTMyODMsImV4cCI6MTU4Njg1MzI5OH0.LRFLin3T1U30HpIE9bAGRoyknc8fkQinxHC7dOlWTUU
+
+
+###
+
+DELETE http://localhost:4000/logout
+Content-type:application/json
+
+
+
+###
+
+POST http://localhost:4000/token
+Content-type : application/json
+
+{
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZGFldW4iLCJpYXQiOjE1ODY4NTMyNjZ9.ZmhOdv-FFr7-AKclFKOlw84FrjCRAN7OSg56p96a0Fg"
+}
+
+###
+
+POST http://localhost:4000/login
+Content-Type : application/json
+
+{
+    "username" : "daeun"
+}
