@@ -1,2 +1,6 @@
+
+# npm install
 node_modules/
+
+# dotenv
 .env
